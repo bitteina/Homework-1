@@ -11,11 +11,6 @@ public class LightSwitch : MonoBehaviour
     {
         light = GetComponent<Light>();
         action.action.Enable();
-        //Here should check if B button is pressed!! tab only temporarily
-        //if (Input.GetKeyDown("tab"))
-        //{
-        //    light.color = Color.blue;
-        //}
         action.action.performed += (ctx) =>
         {
             light.color = Color.blue;
