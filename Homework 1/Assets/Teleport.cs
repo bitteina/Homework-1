@@ -6,7 +6,7 @@ public class Teleport : MonoBehaviour
 {
     //To check if player has teleported to the platform outside
     public bool teleported = false;
-    //Action here is 'trigger' on right hand controller
+
     public InputActionReference action;
     void Start()
     {
